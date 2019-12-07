@@ -668,3 +668,138 @@ header .header-options .auth:hover {
 #most-pop .container .games .game .price {
   font-weight: bold;
 }
+
+/* Category */
+
+#categories {
+  color: #fff;
+  margin: 0 0 100px 0;
+}
+
+#categories .container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+#categories .container .main-title {
+  margin: 0 0 15px 0;
+}
+
+#categories .container .main-content {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 20px;
+}
+
+#categories .container .main-content .category {
+  position: relative;
+  height: 188.08px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+#categories .container .main-content .category::after {
+  content: "";
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#categories .container .main-content .category:nth-child(1) {
+  background-image: url("https://www.telegraph.co.uk/content/dam/gaming/2018/03/19/God-of-War_trans_NvBQzQNjv4BqtR1WRZ4lb6BOb1-FBRpn-lFGGjcI28awSNtOPAVs6pc.jpg?imwidth=450");
+}
+
+#categories .container .main-content .category:nth-child(2) {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTXYcsa2Df1fGHjw5N0nC95HPZiUA-mGteCmOQMR5L44I6MGMtU");
+}
+
+#categories .container .main-content .category:nth-child(3) {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTBHgF9QK6dZRXenX1jbqUSXN6XSkF2Ud1ye48_va4NR6pnDXg2");
+}
+
+#categories .container .main-content .category:nth-child(4) {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRzfWau7aX5x6pxHDW2EnTh0zUpwrijRI6FiBfj58Vy3ohRyFTy");
+}
+
+#categories .container .main-content .category:nth-child(5) {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSAIFGZFh09GfVBKfGGjicRUFcbiOmjkHRJNSpgvMraPA2ZXKer");
+}
+
+#categories .container .main-content .category:hover::after {
+  background: rgba(0, 0, 0, 0.3);
+  transition-duration: 0.3s;
+}
+
+#categories .container .main-content .category .title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+/* Store Catalogue */
+
+#store-catalog {
+  margin: 0 0 100px 0;
+}
+
+#store-catalog .container {
+  max-width: 1100px;
+  color: #fff;
+  margin: auto;
+}
+
+#store-catalog .container .main-title {
+  margin: 0 0 15px 0;
+}
+
+#store-catalog .container .main-content {
+  display: grid;
+  grid-template-columns: 35% 65%;
+  background: rgb(42, 42, 42);
+}
+
+#store-catalog .container .main-content .info-content .main-head {
+  margin: 100px 0 10px 60px;
+  font-size: 50px;
+  font-weight: 200;
+}
+
+#store-catalog .container .main-content .info-content .sub-head {
+  margin: 0 0 0 60px;
+  font-size: 20px;
+  color: hsla(0, 0%, 100%, 0.5);
+}
+
+#store-catalog .container .main-content .info-content .browse-btn {
+  background-color: hsla(0, 0%, 95.7%, 0.3);
+  margin: 50px 0 100px 60px;
+  padding: 20px 40px;
+  border: none;
+  color: #fff;
+  font-size: 12px;
+}
+
+#store-catalog .container .main-content .graphic-content {
+  background-image: url("https://cdn2.unrealengine.com/Diesel%2Fstore%2FEG_Store_BrowseAll_Breaker_640x480-640x480-4386401e4d9b96cef3d34f45d6e8f40ea191f510.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+#store-catalog .container .main-content .graphic-content::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+}
