@@ -14,6 +14,10 @@ a {
   color: rgba(255, 255, 255, 0.7);
 }
 
+li {
+  list-style: none;
+}
+
 .active {
   color: #fff;
 }
@@ -802,4 +806,108 @@ header .header-options .auth:hover {
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.2);
+}
+
+/* footer */
+footer {
+  background: rgb(42, 42, 42);
+  width: 100%;
+  color: #fff;
+  padding: 30px;
+}
+
+footer .top-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .top-content .socials {
+  display: flex;
+  align-items: center;
+}
+
+footer .top-content .socials img {
+  width: 25px;
+  height: auto;
+  margin: 0 10px 0 0;
+}
+
+footer .top-content .small-nav img {
+  width: 25px;
+  height: auto;
+}
+
+footer .res-madeby {
+  display: flex;
+  margin: 20px 0 0 0;
+}
+
+footer .res-madeby .resources .small-title {
+  color: rgb(148, 148, 148);
+  font-size: 15px;
+}
+
+footer .res-madeby .resources .content {
+  display: flex;
+  margin: 10px 0 0 0;
+}
+
+footer .res-madeby .resources .content .resource-ctr {
+  margin: 0 25px 0 0;
+}
+
+footer .res-madeby .resources .content .resource-ctr li {
+  margin: 0 0 7px 0;
+  font-size: 15px;
+  color: rgb(207, 206, 206);
+}
+
+footer .res-madeby .made-by .small-title {
+  color: rgb(148, 148, 148);
+  font-size: 15px;
+}
+
+footer .res-madeby .made-by .content {
+  display: flex;
+  margin: 10px 0 0 0;
+}
+
+footer .res-madeby .made-by .content .madeby-ctr {
+  margin: 0 25px 0 0;
+}
+
+footer .res-madeby .made-by .content .madeby-ctr li {
+  margin: 0 0 7px 0;
+  font-size: 15px;
+  color: rgb(207, 206, 206);
+}
+
+footer .text-cont {
+  width: 50%;
+  font-size: 12px;
+  color: rgb(207, 206, 206);
+  margin: 50px 0;
+  line-height: 21px;
+}
+
+footer .down-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .down-content .left-cont {
+  display: flex;
+  align-items: center;
+}
+
+footer .down-content .left-cont li {
+  margin: 0 15px 0 0;
+  color: rgb(207, 206, 206);
+}
+
+footer .down-content .right-cont img {
+  width: 50px;
+  height: auto;
 }
