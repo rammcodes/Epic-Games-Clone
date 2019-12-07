@@ -399,3 +399,53 @@ header .header-options .auth:hover {
 #top-sellers .container .games .game .price {
   font-weight: bold;
 }
+
+/* Trial Weekend */
+
+#trial-weekend .container {
+  color: #fff;
+  max-width: 1100px;
+  margin: 0 auto 100px auto;
+}
+
+#trial-weekend .container .main-title {
+  margin: 0 0 15px 0;
+}
+
+#trial-weekend .container .main-content {
+  background: rgb(48, 155, 187);
+  display: grid;
+  grid-template-columns: 40% 60%;
+  position: relative;
+}
+
+#trial-weekend .container .main-content .prim-content {
+  margin: 100px 0 100px 60px;
+}
+
+#trial-weekend .container .main-content .prim-content .game-title {
+  font-size: 55px;
+  margin: 0 0 15px 0;
+  font-weight: 200;
+}
+
+#trial-weekend .container .main-content .prim-content .details {
+  color: hsla(0, 0%, 100%, 0.5);
+  width: 90%;
+  margin: 0 0 20px 0;
+}
+
+#trial-weekend .container .main-content .prim-content .play-btn {
+  padding: 20px 40px;
+  color: #fff;
+  background-color: hsla(0, 0%, 95.7%, 0.2);
+  border: none;
+  font-size: 12px;
+}
+
+#trial-weekend .container .main-content .graphic-content {
+  background-image: url("https://cdn2.unrealengine.com/Diesel%2Fstore%2Fthe-crew-2-trial-dec%2FEGS_Crew2_Breaker_Desktop-%281%29-1280x956-a59ed7b382777419e58928ee39b71a6191ea08f6.png?h=720&resize=1&w=1280");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
