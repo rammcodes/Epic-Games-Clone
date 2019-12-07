@@ -386,10 +386,6 @@ header .header-options .auth:hover {
   width: 70%;
 }
 
-#top-sellers .container .games .game .title {
-  padding: 0px 0 0px 0;
-}
-
 #top-sellers .container .games .game .sub-title {
   color: hsla(0, 0%, 100%, 0.5);
   margin: 0 0 25px 0;
@@ -448,4 +444,62 @@ header .header-options .auth:hover {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+/* Coming Soon */
+
+#coming-soon {
+  color: #fff;
+}
+
+#coming-soon .container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+#coming-soon .container .sec-title {
+  margin: 0 0 15px 0;
+}
+
+#coming-soon .container .games {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 15px;
+}
+
+#coming-soon .container .games .game {
+  height: 500px;
+  overflow: hidden;
+}
+
+#coming-soon .container .games .game .img-box {
+  position: relative;
+  height: 300px;
+  margin: 0 0 10px 0;
+}
+
+#coming-soon .container .games .game .img-box .game-img {
+  position: absolute;
+  width: auto;
+  height: 100%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+#coming-soon .container .games .game .img-box .game-logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+}
+
+#coming-soon .container .games .game .sub-title {
+  color: hsla(0, 0%, 100%, 0.5);
+  margin: 0 0 25px 0;
+  font-weight: bold;
+}
+
+#coming-soon .container .games .game .price {
+  font-weight: bold;
 }
