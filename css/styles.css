@@ -503,3 +503,168 @@ header .header-options .auth:hover {
 #coming-soon .container .games .game .price {
   font-weight: bold;
 }
+
+/* afterparty */
+#after-party .container {
+  color: #fff;
+  max-width: 1100px;
+  margin: 0 auto 100px auto;
+}
+
+#after-party .container .main-title {
+  margin: 0 0 15px 0;
+}
+
+#after-party .container .main-content {
+  background: rgb(70, 4, 97);
+  display: grid;
+  grid-template-columns: 40% 60%;
+  position: relative;
+}
+
+#after-party .container .main-content .prim-content {
+  margin: 100px 0 100px 60px;
+}
+
+#after-party .container .main-content .prim-content .game-title {
+  font-size: 55px;
+  margin: 0 0 15px 0;
+  font-weight: 200;
+}
+
+#after-party .container .main-content .prim-content .details {
+  color: hsla(0, 0%, 100%, 0.5);
+  width: 90%;
+  margin: 0 0 20px 0;
+}
+
+#after-party .container .main-content .prim-content .outnow-btn {
+  padding: 20px 40px;
+  color: #fff;
+  background-color: hsla(0, 0%, 95.7%, 0.2);
+  border: none;
+  font-size: 12px;
+}
+
+#after-party .container .main-content .graphic-content {
+  background-image: url("https://cdn2.unrealengine.com/Diesel%2Fproductv2%2Fafterparty%2Fhome%2FAfterparty_BreakerImage_1280x956-%282%29-1280x956-2bd551179b9268ebfcecefb48c22e6222fd69130.png?h=720&resize=1&w=1280");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Rising */
+
+#rising {
+  color: #fff;
+}
+
+#rising .container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+#rising .container .sec-title {
+  margin: 0 0 15px 0;
+}
+
+#rising .container .games {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 15px;
+}
+
+#rising .container .games .game {
+  height: 500px;
+  overflow: hidden;
+}
+
+#rising .container .games .game .img-box {
+  position: relative;
+  height: 300px;
+  margin: 0 0 10px 0;
+}
+
+#rising .container .games .game .img-box .game-img {
+  position: absolute;
+  width: auto;
+  height: 100%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+#rising .container .games .game .img-box .game-logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+}
+
+#rising .container .games .game .sub-title {
+  color: hsla(0, 0%, 100%, 0.5);
+  margin: 0 0 25px 0;
+  font-weight: bold;
+}
+
+#rising .container .games .game .price {
+  font-weight: bold;
+}
+
+/* Most Popular */
+
+#most-pop {
+  color: #fff;
+}
+
+#most-pop .container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+#most-pop .container .sec-title {
+  margin: 0 0 15px 0;
+}
+
+#most-pop .container .games {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 15px;
+}
+
+#most-pop .container .games .game {
+  height: 500px;
+  overflow: hidden;
+}
+
+#most-pop .container .games .game .img-box {
+  position: relative;
+  height: 300px;
+  margin: 0 0 10px 0;
+}
+
+#most-pop .container .games .game .img-box .game-img {
+  position: absolute;
+  width: auto;
+  height: 100%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+#most-pop .container .games .game .img-box .game-logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+}
+
+#most-pop .container .games .game .sub-title {
+  color: hsla(0, 0%, 100%, 0.5);
+  margin: 0 0 25px 0;
+  font-weight: bold;
+}
+
+#most-pop .container .games .game .price {
+  font-weight: bold;
+}
