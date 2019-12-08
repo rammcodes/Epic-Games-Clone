@@ -43,6 +43,11 @@ header .logo {
   padding: 10px 5px 0 20px;
 }
 
+header .res-menu {
+  display: none;
+  color: #fff;
+}
+
 header .logo img {
   width: 50px;
   height: auto;
@@ -90,6 +95,29 @@ header .header-options .auth:hover {
   cursor: pointer;
 }
 
+@media (max-width: 800px) {
+  header .logo {
+    padding: 0px 5px 0px 5px;
+  }
+
+  header .res-menu {
+    display: initial;
+    margin-left: auto;
+    background: #0078f2;
+    padding: 9px;
+  }
+
+  header .res-menu img {
+    width: 40px;
+    height: auto;
+  }
+
+  header .primary-menu,
+  header .header-options {
+    display: none;
+  }
+}
+
 /* homepage primary showcase */
 
 #hp-prim-show {
@@ -97,7 +125,8 @@ header .header-options .auth:hover {
 }
 
 #hp-prim-show .container {
-  max-width: 1100px;
+  max-width: 1300px;
+  padding: 0 100px;
   margin: auto;
   color: rgba(255, 255, 255, 0.7);
 }
@@ -224,6 +253,45 @@ header .header-options .auth:hover {
   margin: 0 0 0 10px;
 }
 
+@media (max-width: 1330px) {
+  #hp-prim-show .container {
+    padding: 0 30px;
+  }
+  #hp-prim-show .container .content {
+    grid-template-columns: 100%;
+  }
+}
+
+@media (max-width: 800px) {
+}
+
+@media (max-width: 600px) {
+  #hp-prim-show .container .top-bar {
+    flex-direction: column;
+  }
+
+  #hp-prim-show .container .top-bar .options {
+    width: 100%;
+    justify-content: center;
+    margin: 0 0 20px 0;
+  }
+
+  #hp-prim-show .container .top-bar .search {
+    margin: 0 0 0px 0;
+    width: 100%;
+  }
+
+  #hp-prim-show .container .top-bar .search input {
+    width: 100%;
+  }
+  #hp-prim-show .container .content {
+    padding: 20px 0;
+  }
+  #hp-prim-show .container .content .game-details {
+    padding: 10px;
+  }
+}
+
 /*New Release*/
 
 #new-release {
@@ -231,7 +299,8 @@ header .header-options .auth:hover {
 }
 
 #new-release .container {
-  max-width: 1100px;
+  max-width: 1300px;
+  padding: 0 100px;
   margin: auto;
 }
 
