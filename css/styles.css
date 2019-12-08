@@ -438,6 +438,30 @@ header .header-options .auth:hover {
   background: #1a1a1a;
 }
 
+@media (max-width: 1330px) {
+  #free-games-weekly .container {
+    padding: 0 30px;
+  }
+}
+
+@media (max-width: 800px) {
+  #free-games-weekly .container .games {
+    overflow-x: auto;
+  }
+
+  #free-games-weekly .container .games::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@media (max-width: 650px) {
+  #free-games-weekly .container .games {
+    display: grid;
+    grid-template-columns: repeat(2, 290px);
+    grid-gap: 10px;
+  }
+}
+
 /* Top Sellers */
 #top-sellers {
   color: #fff;
@@ -506,6 +530,35 @@ header .header-options .auth:hover {
   font-weight: bold;
 }
 
+@media (max-width: 1330px) {
+  #top-sellers .container {
+    padding: 0 30px;
+  }
+}
+
+@media (max-width: 1150px) {
+  #top-sellers .container .games {
+    grid-template-columns: repeat(5, 250px);
+    overflow-x: auto;
+  }
+
+  #top-sellers .container .games::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  #top-sellers .container .games {
+    grid-template-columns: repeat(5, 230px);
+  }
+}
+
+@media (max-width: 350px) {
+  #top-sellers .container .games {
+    grid-template-columns: repeat(5, 210px);
+  }
+}
+
 /* Trial Weekend */
 
 #trial-weekend .container {
@@ -554,6 +607,86 @@ header .header-options .auth:hover {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+@media (max-width: 1330px) {
+  #trial-weekend .container {
+    padding: 0 30px;
+  }
+}
+
+@media (max-width: 1000px) {
+  #trial-weekend .container .main-content {
+    grid-template-columns: 100%;
+  }
+
+  #trial-weekend .container .main-content .graphic-content {
+    width: 100%;
+    height: 600px;
+  }
+}
+
+@media (max-width: 900px) {
+  #trial-weekend .container .main-content .graphic-content {
+    height: 500px;
+  }
+
+  #trial-weekend .container .main-content .prim-content {
+    margin: 20px 0 20px 30px;
+  }
+}
+
+@media (max-width: 800px) {
+  #trial-weekend .container .main-content .graphic-content {
+    height: 400px;
+  }
+}
+
+@media (max-width: 700px) {
+  #trial-weekend .container .main-content .graphic-content {
+    height: 350px;
+  }
+  #trial-weekend .container .main-content .prim-content {
+    margin: 40px 0 40px 30px;
+  }
+
+  #trial-weekend .container .main-content .prim-content .game-title {
+    font-size: 30px;
+    margin: 0 0 8px 0;
+  }
+  #trial-weekend .container .main-content .prim-content .details {
+    font-size: 15px;
+    width: 95%;
+    margin: 0 0 20px 0;
+  }
+}
+
+@media (max-width: 600px) {
+  #trial-weekend .container .main-content .graphic-content {
+    height: 300px;
+  }
+  #trial-weekend .container .main-content .prim-content .play-btn {
+    padding: 10px 20px;
+    color: #fff;
+    background-color: hsla(0, 0%, 95.7%, 0.2);
+    border: none;
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 500px) {
+  #trial-weekend .container .main-content .graphic-content {
+    height: 250px;
+  }
+  #trial-weekend .container .main-content .prim-content {
+    margin: 20px 0 20px 30px;
+  }
+}
+
+@media (max-width: 400px) {
+  #trial-weekend .container .main-content .graphic-content {
+    height: 200px;
+  }
 }
 
 /* Coming Soon */
