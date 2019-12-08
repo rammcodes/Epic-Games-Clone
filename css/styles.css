@@ -254,6 +254,10 @@ header .header-options .auth:hover {
 }
 
 @media (max-width: 1330px) {
+  #hp-prim-show {
+    margin: 100px 0 0px 0;
+  }
+
   #hp-prim-show .container {
     padding: 0 30px;
   }
@@ -353,6 +357,39 @@ header .header-options .auth:hover {
 
 #new-release .container .new-games-list .single-game .price {
   font-weight: bold;
+}
+
+@media (max-width: 1330px) {
+  #new-release .container {
+    padding: 0 30px;
+  }
+}
+
+@media (max-width: 1150px) {
+  #new-release .container .new-games-list {
+    grid-template-columns: repeat(5, 250px);
+    overflow-x: auto;
+  }
+
+  #new-release .container .new-games-list:nth-child(5) {
+    display: none;
+  }
+
+  .new-games-list::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  #new-release .container .new-games-list {
+    grid-template-columns: repeat(5, 230px);
+  }
+}
+
+@media (max-width: 350px) {
+  #new-release .container .new-games-list {
+    grid-template-columns: repeat(5, 210px);
+  }
 }
 
 /* free-games-section */
