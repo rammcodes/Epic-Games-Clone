@@ -1050,6 +1050,35 @@ header .header-options .auth:hover {
   font-weight: bold;
 }
 
+@media (max-width: 1330px) {
+  #most-pop .container {
+    padding: 0 30px;
+  }
+}
+
+@media (max-width: 1150px) {
+  #most-pop .container .games {
+    grid-template-columns: repeat(5, 250px);
+    overflow-x: auto;
+  }
+
+  #most-pop .container .games::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  #most-pop .container .games {
+    grid-template-columns: repeat(5, 230px);
+  }
+}
+
+@media (max-width: 350px) {
+  #most-pop .container .games {
+    grid-template-columns: repeat(5, 210px);
+  }
+}
+
 /* Category */
 
 #categories {
