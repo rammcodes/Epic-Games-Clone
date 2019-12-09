@@ -747,6 +747,35 @@ header .header-options .auth:hover {
   font-weight: bold;
 }
 
+@media (max-width: 1330px) {
+  #coming-soon .container {
+    padding: 0 30px;
+  }
+}
+
+@media (max-width: 1150px) {
+  #coming-soon .container .games {
+    grid-template-columns: repeat(5, 250px);
+    overflow-x: auto;
+  }
+
+  #coming-soon .container .games::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  #coming-soon .container .games {
+    grid-template-columns: repeat(5, 230px);
+  }
+}
+
+@media (max-width: 350px) {
+  #coming-soon .container .games {
+    grid-template-columns: repeat(5, 210px);
+  }
+}
+
 /* afterparty */
 #after-party .container {
   color: #fff;
