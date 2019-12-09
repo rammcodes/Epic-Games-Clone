@@ -825,6 +825,86 @@ header .header-options .auth:hover {
   background-position: center;
 }
 
+@media (max-width: 1330px) {
+  #after-party .container {
+    padding: 0 30px;
+  }
+}
+
+@media (max-width: 1000px) {
+  #after-party .container .main-content {
+    grid-template-columns: 100%;
+  }
+
+  #after-party .container .main-content .graphic-content {
+    width: 100%;
+    height: 600px;
+  }
+}
+
+@media (max-width: 900px) {
+  #after-party .container .main-content .graphic-content {
+    height: 500px;
+  }
+
+  #after-party .container .main-content .prim-content {
+    margin: 20px 0 20px 30px;
+  }
+}
+
+@media (max-width: 800px) {
+  #after-party .container .main-content .graphic-content {
+    height: 400px;
+  }
+}
+
+@media (max-width: 700px) {
+  #after-party .container .main-content .graphic-content {
+    height: 350px;
+  }
+  #after-party .container .main-content .prim-content {
+    margin: 40px 0 40px 30px;
+  }
+
+  #after-party .container .main-content .prim-content .game-title {
+    font-size: 30px;
+    margin: 0 0 8px 0;
+  }
+  #after-party .container .main-content .prim-content .details {
+    font-size: 15px;
+    width: 95%;
+    margin: 0 0 20px 0;
+  }
+}
+
+@media (max-width: 600px) {
+  #after-party .container .main-content .graphic-content {
+    height: 300px;
+  }
+  #after-party .container .main-content .prim-content .outnow-btn {
+    padding: 10px 20px;
+    color: #fff;
+    background-color: hsla(0, 0%, 95.7%, 0.2);
+    border: none;
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 500px) {
+  #after-party .container .main-content .graphic-content {
+    height: 250px;
+  }
+  #after-party .container .main-content .prim-content {
+    margin: 20px 0 20px 30px;
+  }
+}
+
+@media (max-width: 400px) {
+  #after-party .container .main-content .graphic-content {
+    height: 200px;
+  }
+}
+
 /* Rising */
 
 #rising {
@@ -881,6 +961,35 @@ header .header-options .auth:hover {
 
 #rising .container .games .game .price {
   font-weight: bold;
+}
+
+@media (max-width: 1330px) {
+  #rising .container {
+    padding: 0 30px;
+  }
+}
+
+@media (max-width: 1150px) {
+  #rising .container .games {
+    grid-template-columns: repeat(5, 250px);
+    overflow-x: auto;
+  }
+
+  #rising .container .games::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  #rising .container .games {
+    grid-template-columns: repeat(5, 230px);
+  }
+}
+
+@media (max-width: 350px) {
+  #rising .container .games {
+    grid-template-columns: repeat(5, 210px);
+  }
 }
 
 /* Most Popular */
